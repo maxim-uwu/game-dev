@@ -1,0 +1,181 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Montserrat';
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.container {
+  width: 85%;
+  margin: auto;
+}
+
+.active-link {
+  color: #FF0000;
+}
+
+.btn {
+  background: #CE0002;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  color: #FFFFFF;
+  border: none;
+  cursor: pointer;
+  text-align: left;
+}
+
+.btn::after {
+  content: url("img/arrow.png");
+}
+
+.heading {
+  font-family: 'Inter';
+  font-weight: 700;
+  font-size: 72px;
+  line-height: 87px;
+  text-transform: uppercase;
+  max-width: 603px;
+
+}
+
+/* Header  */
+
+.header {
+  position: relative;
+  padding-bottom: 100px;
+  margin-bottom: 100px;
+}
+
+.main-header::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 85%;
+  height: 100%;
+  background: #FFEE2F;
+  z-index: -1;
+}
+
+.header-top {
+  padding: 23px 45px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav a {
+
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  margin: 0 22px;
+}
+
+.header-content {
+  position: relative;
+  margin-top: 100px;
+  padding-left: 50px;
+}
+
+h1 {
+  font-family: 'Inter';
+  font-weight: 700;
+  font-size: 72px;
+  line-height: 87px;
+  text-transform: uppercase;
+  width: 60%;
+}
+
+.header-btn {
+  width: 120px;
+  height: 120px;
+  padding: 15px;
+}
+
+q {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 29px;
+  display: inline-block;
+  max-width: 460px;
+}
+
+.header-img {
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 40%;
+}
+.team-box{
+display: flex;
+justify-content: space-between;
+}
+
+.member{
+  width: 23%;
+}
+
+.team{
+  position: relative;
+  padding-top: 150px;
+}
+.team::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 55%;
+  height: 100%;
+  background: #FFEE2F;
+  z-index: -1;
+}
+
+.footer{
+margin-top: 50px;
+background: #EFEFEF;
+padding: 18px 27px;
+display: flex;
+justify-content: space-between;
+
+}
+.footer-nav{
+  font-size: 16px;
+  line-height: 20px;
+  margin: 0 30px;
+  color: #7E7E7E;
+
+}
+html{
+  scroll-behavior: smooth;
+}
+.game-header::before{
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 50%;
+  height: 100%;
+  background: #D3D1E9;
+  z-index: -1;
+}
+.game-header .header-img{
+  width: 420px;
+  right: 60px;
+}
+.game-header p{
+  max-width: 606px;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 29px;
+  margin-bottom: 20px;
+}
